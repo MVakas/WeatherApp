@@ -111,7 +111,7 @@ class ViewController: UIViewController, ABCGooglePlacesSearchViewControllerDeleg
         self.weatherDataTableView.reloadData()
         print("Current Temperatur : \(weatherViewModel.currentTemperature)")
         self.currentTemperature.text = weatherViewModel.currentTemperature
-//        self.cityNameTextLabel.text = weatherViewModel.city
+//        self.cityNameTextLabel.text = weathertViewModel.city
         self.coordinatesTextLabel.text = weatherViewModel.lat_long
         self.minMaxLabel.text = weatherViewModel.min_max
         self.mainWeatherInfoLabel.text = weatherViewModel.weatherInfo
